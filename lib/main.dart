@@ -105,8 +105,8 @@ double result4=0;
                 RaisedButton(
                  color: Colors.blue,
                   onPressed: (){
-                    int first=int.parse(getnumone.text);
-                    int second=int.parse(getnumtwo.text);
+                    double first=double.parse(getnumone.text);
+                    double second=double.parse(getnumtwo.text);
 
                     setState(() {
 
